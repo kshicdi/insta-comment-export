@@ -39,12 +39,52 @@ A Chrome extension that exports comments from **your own** Instagram posts/reels
 
 ## 설치 / Install (개발자 모드)
 
-1. 이 저장소를 다운로드(또는 `git clone`)합니다.
-2. 크롬 주소창에 `chrome://extensions` 입력 → 우측 상단 **개발자 모드** 켜기.
-3. **압축해제된 확장 프로그램을 로드** 클릭 → 이 폴더 선택.
-4. 인스타그램 게시물/릴스 페이지로 이동.
+> 크롬 웹스토어 출시 전이라, 지금은 아래처럼 직접 내려받아 설치합니다. (그림을 따라 하면 됩니다.)
+> *Web Store release is coming. For now, install manually by following the steps below.*
+
+**1. 이 페이지 위쪽 초록색 `Code` 버튼을 누릅니다.**
+
+![1. Code 버튼](./docs/install/01.png)
+
+**2. 메뉴 맨 아래 `Download ZIP`을 눌러 압축 파일을 내려받습니다.**
+
+![2. Download ZIP](./docs/install/02.png)
+
+**3. 내려받은 ZIP 파일의 압축을 풉니다.** → `insta-comment-export-main` 폴더가 생깁니다. ⚠️ **이 "폴더"가 나중에 필요합니다(ZIP 파일이 아니라).**
+
+![3. 압축 푼 폴더](./docs/install/03.png)
+
+**4. 크롬 주소창에 `chrome://extensions` 를 입력해 확장 프로그램 페이지를 엽니다.**
+
+![5. 주소창에 chrome://extensions](./docs/install/05.png)
+
+![4. 확장 프로그램 페이지](./docs/install/04.png)
+
+**5. 우측 상단 `개발자 모드`를 켭니다.**
+
+![6. 개발자 모드 ON](./docs/install/06.png)
+
+**6. 왼쪽 위 `압축해제된 확장 프로그램을 로드`를 누릅니다.**
+
+![7. 압축해제된 확장 로드](./docs/install/07.png)
+
+**7. 3번에서 압축을 푼 폴더를 선택합니다.** ⚠️ ZIP 파일 말고 **폴더**를 고르세요.
+
+![8. 폴더 선택](./docs/install/08.png)
+
+**8. 목록에 `인스타 댓글 스카우트`가 보이면 설치 완료입니다.**
+
+![9. 설치 확인](./docs/install/09.png)
+
+**9. (선택) 툴바의 퍼즐 아이콘에서 `인스타 댓글 스카우트`를 고정(📌)하면 쓰기 편합니다.**
+
+![10. 툴바 고정](./docs/install/10.png)
 
 ## 사용법 / Usage
+
+**인스타그램 게시물/릴스를 연 뒤**, 확장 아이콘(또는 화면 **우측 하단 버튼**)을 눌러 시작합니다.
+
+![11. 사용 시작](./docs/install/11.png)
 
 1. 내 인스타그램 게시물 또는 릴스 페이지를 엽니다.
 2. 화면 **우측 하단의 버튼**을 누릅니다.

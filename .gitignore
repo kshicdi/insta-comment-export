@@ -15,3 +15,7 @@ build/
 # Node (in case tooling is added later)
 node_modules/
 npm-debug.log*
+
+# Raw instruction captures (originals may contain personal/other-tool data).
+# Only the sanitized images under docs/install/ are published.
+doc/
