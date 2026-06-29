@@ -6,6 +6,18 @@ A Chrome extension that exports comments from **your own** Instagram posts/reels
 
 ---
 
+## 미리보기 / Screenshots
+
+옵션 선택 → 자동으로 끝까지 수집 → 엑셀(.xlsx) 저장
+
+![수집 흐름 / Collection flow](./screenshots/flow.png)
+
+수집 결과는 바로 쓰는 엑셀로. *(아래는 예시 화면 — 실제 계정 정보는 가림 처리)*
+
+![엑셀 결과 / Excel result](./screenshots/excel.png)
+
+---
+
 ## ⚠️ 사용 범위 / Scope
 
 > **본인 계정 전용 도구입니다.**
