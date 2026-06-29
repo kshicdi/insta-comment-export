@@ -4,6 +4,8 @@
 
 A Chrome extension that exports comments from **your own** Instagram posts/reels to Excel (.xlsx). Runs 100% locally — nothing is sent to any server.
 
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-설치하기%20·%20Install-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/ieibmlgpbjcpdhkiamgccgcjmhigggla)
+
 ---
 
 ## 미리보기 / Screenshots
@@ -37,13 +39,23 @@ A Chrome extension that exports comments from **your own** Instagram posts/reels
 - 엑셀(.xlsx) 다운로드 — [SheetJS](https://sheetjs.com) 사용
 - 순수 로컬: 로그인/계정 연동/서버 통신 **없음**
 
-## 설치 / Install (개발자 모드)
+## 설치 / Install
 
-> 크롬 웹스토어 출시 전이라, 지금은 아래처럼 직접 내려받아 설치합니다. (그림을 따라 하면 됩니다.)
-> *Web Store release is coming. For now, install manually by following the steps below.*
+> **크롬 웹스토어에서 한 번에 설치하세요.** 아래 버튼을 눌러 `Chrome에 추가`만 하면 끝입니다.
+> *Install directly from the Chrome Web Store — just click **Add to Chrome**.*
+
+### 👉 [크롬 웹스토어에서 설치하기 / Install from Chrome Web Store](https://chromewebstore.google.com/detail/ieibmlgpbjcpdhkiamgccgcjmhigggla)
 
 > 📘 **그림으로 보는 자세한 설치 가이드:** [www.one-scout.com/guide/insta-comment-install](https://www.one-scout.com/guide/insta-comment-install)
 > *Step-by-step visual guide (Korean):* https://www.one-scout.com/guide/insta-comment-install
+
+<details>
+<summary><b>개발자용: 소스에서 직접 설치 (개발자 모드) / For developers: load unpacked</b></summary>
+
+<br>
+
+스토어 대신 이 저장소 소스로 직접 설치하려면 아래 단계를 따르세요.
+*To install from this repository's source instead of the store, follow the steps below.*
 
 **1. 이 페이지 위쪽 초록색 `Code` 버튼을 누릅니다.**
 
@@ -82,6 +94,8 @@ A Chrome extension that exports comments from **your own** Instagram posts/reels
 **9. (선택) 툴바의 퍼즐 아이콘에서 `인스타 댓글 스카우트`를 고정(📌)하면 쓰기 편합니다.**
 
 ![10. 툴바 고정](./docs/install/10.png)
+
+</details>
 
 ## 사용법 / Usage
 

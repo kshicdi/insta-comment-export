@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "인스타 댓글 스카우트",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "인스타그램 게시물 댓글을 엑셀로 추출하는 도구. 한끗랩 원스카우트.",
   "permissions": [
     "storage"
