@@ -42,6 +42,9 @@ A Chrome extension that exports comments from **your own** Instagram posts/reels
 > 크롬 웹스토어 출시 전이라, 지금은 아래처럼 직접 내려받아 설치합니다. (그림을 따라 하면 됩니다.)
 > *Web Store release is coming. For now, install manually by following the steps below.*
 
+> 📘 **그림으로 보는 자세한 설치 가이드:** [www.one-scout.com/guide/insta-comment-install](https://www.one-scout.com/guide/insta-comment-install)
+> *Step-by-step visual guide (Korean):* https://www.one-scout.com/guide/insta-comment-install
+
 **1. 이 페이지 위쪽 초록색 `Code` 버튼을 누릅니다.**
 
 ![1. Code 버튼](./docs/install/01.png)
