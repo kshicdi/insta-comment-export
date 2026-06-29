@@ -1248,7 +1248,7 @@
   }
 
   // ────────────────────────────────────────────────────────────────────────────
-  // 5. 엑셀 출력 (SheetJS) — docs/features/엑셀-출력-표준.md 표준
+  // 5. 엑셀 출력 (SheetJS)
   // ────────────────────────────────────────────────────────────────────────────
   const ACCENT_HEX = '1B3A6B';
 
@@ -1298,7 +1298,7 @@
 
     // ── "데이터" 시트 ──
     // 컬럼 순서: 번호 · 아이디 · 계정링크 · 댓글내용 · 작성시간 · 멘션여부 · 댓글링크
-    //   계정링크 = 프로필 URL(https://www.instagram.com/<아이디>) — 추후 DM 자동화 대상.
+    //   계정링크 = 프로필 URL(https://www.instagram.com/<아이디>).
     //   댓글링크 = 댓글 퍼머링크(/c/...).
     const header = ['번호', '아이디', '계정링크', '댓글내용', '작성시간', '멘션여부', '댓글링크'];
     // 아이디(핸들)는 handleFromHref에서 [A-Za-z0-9._]만 통과(저장 시 @/슬래시 없음) → 그대로 사용.
@@ -1329,7 +1329,7 @@
       if (ACCOUNT_LINK_COL >= 0 && accUrl) {
         const addr = XLSX.utils.encode_cell({ r: i + 1, c: ACCOUNT_LINK_COL }); // +1: 헤더행 다음
         const cell = wsData[addr];
-        if (cell) cell.l = { Target: accUrl, Tooltip: '이 계정 프로필 열기 (DM 자동화용)' };
+        if (cell) cell.l = { Target: accUrl, Tooltip: '이 계정 프로필 열기' };
       }
       // 댓글링크 — 퍼머링크 있을 때만 하이퍼링크
       const cmtUrl = r.link || '';
